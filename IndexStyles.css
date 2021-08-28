@@ -1,0 +1,53 @@
+body {
+    background-color: #00b283;
+}
+
+.errores {
+    -webkit-boxshadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    display: none;
+    font-size: 14px;
+    margin-top: 45px;
+    margin-left: 3px;
+    padding: 9px;
+    position: absolute;
+}
+
+#UserName {
+    margin-top: 15px;
+    margin-left: 160px;
+}
+
+#Date {
+    margin-top: -34px;
+    margin-left: 300px;
+}
+
+#Fecha {
+    margin-top: -37px;
+    margin-left: 500px;
+}
+
+#fechaHora {
+    color: #ff7700;
+}
+
+#Limpiar {
+    background-color: #ff7700;
+}
+
+#texto {
+    color: #a90e11;
+}
+
+#BName {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}

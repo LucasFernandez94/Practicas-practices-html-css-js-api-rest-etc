@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Rick & Morty</title>
+    <link rel="stylesheet" href="IndexStyles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light" id="nav">
+        <div class="container-fluid" id="DivNav">
+            <form class="d-flex" id="Fnav">
+                <input class="form-control me-2" type="search" placeholder="Buscar Personaje" aria-label="Search" id="NavBuscar" maxlength="3">
+                <button class="btn btn-outline-success" type="button" id="BotonBuscar">Buscar</button>
+                <div id="mensaje1" class="errores">id invalido</div>
+                <div id="mensaje2" class="errores">Personaje no existe</div>
+            </form>
+        </div>
+        <div class="container" id="UserName">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid" id="Dnav">
+                    <a class="navbar-brand" href="#" id="fechaHora">
+                        <h4 id="Username"></h4>
+                        <h4 id="Date"></h4>
+                        <h4 id="Fecha"></h4>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </nav>
+    <br>
+    <h6 id="texto">Para mas informacion presione el nombre del personaje</h6>
+    <br>
+
+    <table class="table" id="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Status</th>
+                <th scope="col">Species</th>
+                <th scope="col">Type</th>
+                <th scope="col">Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">-</th>
+                <td id="Id"></td>
+                <td id="Name"><button id="BName"></button></td>
+                <td id="Status"></td>
+                <td id="Species"></td>
+                <td id="Type"></td>
+                <td id="Gender"></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <figure class="figure" id="Img">
+        <img src=" " class="figure-img img-fluid rounded" alt=" ">
+    </figure>
+    <br>
+    <button type="button" class="btn btn-primary btn-lg" id="Limpiar">Limpiar Imagen</button>
+    <button type="button" class="btn btn-secondary btn-lg" id="CerrarSesion">Cerrar sesion</button>
+
+    <!-- Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="indexJs.js"></script>
+</body>
+
+</html>

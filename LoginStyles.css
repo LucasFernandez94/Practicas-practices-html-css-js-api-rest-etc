@@ -1,0 +1,53 @@
+.formulario {
+    background-color: rgba(255, 253, 253, 0.521);
+    color: rgb(251, 255, 0);
+    width: 630px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+#email {
+    border-color: rgb(251, 255, 0);
+    background-color: Transparent;
+    color: rgb(251, 255, 0);
+    border-width: 3px;
+}
+
+#password {
+    border-color: rgb(251, 255, 0);
+    background-color: Transparent;
+    color: rgb(251, 255, 0);
+    border-width: 3px;
+}
+
+#validar_formulario {
+    border-width: 3px;
+}
+
+.errores {
+    -webkit-boxshadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    display: none;
+    font-size: 14px;
+    margin-top: -77px;
+    margin-left: 180px;
+    padding: 9px;
+    position: absolute;
+}
+
+.formulario {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: -570px;
+    width: 380px;
+}
